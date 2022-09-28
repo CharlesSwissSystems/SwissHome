@@ -242,7 +242,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 70px;
+  max-height: 180px;
   margin-right: 10px;
 }
 
@@ -572,16 +572,32 @@ section {
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
+
+body {
+    background-image: url('~\assets\img\wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    min-height: 800px;
+    /*background-color: #cccccc;*/
+}
+
 /*--------------------------------------------------------------
 # Animated Hero Section
 --------------------------------------------------------------*/
+
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/hero-bg.png") center center;
+  /*background: url("../img/hero-bg.png") center center;*/
   background-size: cover;
   position: relative;
-  padding: 120px 0 60px;
+  padding: 250px 0 60px;
 }
 
 .hero-animated h2 {
@@ -593,11 +609,11 @@ section {
 }
 
 .hero-animated h2 span {
-  color: var(--color-primary);
+  color: #fff;
 }
 
 .hero-animated p {
-  color: rgba(var(--color-secondary-rgb), 0.8);
+  color: silver;
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 400;
@@ -1137,10 +1153,13 @@ section {
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services .service-item {
-  padding: 30px;
-  transition: all ease-in-out 0.4s;
-  background: var(--color-white);
-  height: 100%;
+    padding: 30px;
+    transition: all ease-in-out 0.4s;
+    background-color: aliceblue;
+    height: 180px;
+    width: 300px;
+    border: 5px double #384e88;
+    border-radius: 20px;
 }
 
 .featured-services .service-item .icon {
@@ -1148,7 +1167,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: var(--color-primary);
+  color: grey;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -1159,10 +1178,10 @@ section {
   font-size: 24px;
 }
 
-.featured-services .service-item h4 a {
-  color: var(--color-secondary);
-  transition: ease-in-out 0.3s;
-}
+    .featured-services .service-item h4 a {
+        color: #1f2d6e;
+        transition: ease-in-out 0.3s;
+    }
 
 .featured-services .service-item p {
   line-height: 24px;

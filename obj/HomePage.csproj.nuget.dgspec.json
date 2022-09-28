@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SwissSystems\\SwissHome\\HomePage\\HomePage.csproj": {}
+    "C:\\Users\\Freddy\\Source\\Repos\\SwissHome\\HomePage.csproj": {}
   },
   "projects": {
-    "D:\\SwissSystems\\SwissHome\\HomePage\\HomePage.csproj": {
+    "C:\\Users\\Freddy\\Source\\Repos\\SwissHome\\HomePage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SwissSystems\\SwissHome\\HomePage\\HomePage.csproj",
+        "projectUniqueName": "C:\\Users\\Freddy\\Source\\Repos\\SwissHome\\HomePage.csproj",
         "projectName": "HomePage",
-        "projectPath": "D:\\SwissSystems\\SwissHome\\HomePage\\HomePage.csproj",
-        "packagesPath": "C:\\Users\\Charl\\.nuget\\packages\\",
-        "outputPath": "D:\\SwissSystems\\SwissHome\\HomePage\\obj\\",
+        "projectPath": "C:\\Users\\Freddy\\Source\\Repos\\SwissHome\\HomePage.csproj",
+        "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Freddy\\Source\\Repos\\SwissHome\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -42,14 +43,19 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
